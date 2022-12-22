@@ -30,6 +30,13 @@ This quick steps will explain you how to play the game if you never have played 
  - Right under the text you will see a button called "Restart".
  - If you click the button then the website will be refresed and you can play the game again!
 
+## How does the code work?
+This code adds an event listener to the webpage that listens for the DOMContentLoaded event, which occurs when the webpage has finished loading its HTML content. When this event occurs, the code initializes an audio element that plays an alarm sound when triggered.
+
+The code also initializes a countdown timer and points variable, both set to a default value of 10. When the webpage finishes loading, the code sets an interval to run every 1 second (1000 milliseconds). Within this interval, the code checks if the countdown timer is less than or equal to 0. If it is, the code clears the interval, displays a gameover element, hides the button element, displays the total points scored, changes the background color, and hides the stopwatch element. If the countdown timer is greater than 0, the code displays the countdown timer on the stopwatch element, hides the gameover element, and shows the button element. If the countdown timer is 3 seconds, the stopwatch color is changed to lightcoral. If the countdown timer is 1 second, the stopwatch color is changed to red. The countdown timer is then decremented by 1.
+
+The code also adds an event listener to the button element that listens for a click event. When the button is clicked, the code plays the alarm sound and changes the position of the button element after a delay of 1 millisecond. The points variable is then incremented by 1.
+
 ## How to edit the code?
 Open the folder in Visual Studio Code or any other code editor and make changes as needed, save the changes and run the index.html file again.
 

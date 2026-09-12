@@ -3,10 +3,9 @@ This is a basic whack a button game developed using HTML, CSS and JavaScript.
 It can run on desktop devices, laptops, tablets and of curse also on mobile phones.
 
 ## Getting started
-Clone the repository from gitea
-Use the command line interface for cloning.
+Clone the repository using the command line interface.
 ```
-git clone http://192.168.100.57:3000/Olivier_Luethy/Whack-a-Button-in-JS.git
+git clone https://github.com/olivierluethy/Whack-a-Button-in-JS.git
 ```
 ## What is inside?
 The cloned folder contains the following files:
